@@ -1,4 +1,4 @@
-## CRUD CON PYTHON 🐍 Y FLASK
+## CONSIGNATARIA: CRUD FLASK + MySQL
 
 ### Requeriomientos:
 
