@@ -1,6 +1,6 @@
 ## CONSIGNATARIA: CRUD FLASK + MySQL
 
-### Requeriomientos:
+### Requerimientos:
 
 ##### PASO 1: <p>Crear entorno virtual
 ` virtualenv -p python3 env o  python3 -m venv env`</p>
