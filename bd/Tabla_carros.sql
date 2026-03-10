@@ -28,48 +28,9 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `carros` (
-  `id` int(11) NOT NULL,
-  `marca` varchar(45) NOT NULL,
-  `modelo` varchar(45) NOT NULL,
-  `year` varchar(45) NOT NULL,
-  `color` varchar(45) NOT NULL,
-  `puertas` varchar(45) NOT NULL,
-  `favorito` varchar(45) NOT NULL,
-  `foto` varchar(45) NOT NULL
+  
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Volcado de datos para la tabla `carros`
---
-
-INSERT INTO `carros` (`id`, `marca`, `modelo`, `year`, `color`, `puertas`, `favorito`, `foto`) VALUES
-(1, 'BMW', 'BMW X7', '2022', 'Gris', '4', 'Si', 'bmw_2022.jpg'),
-(2, 'Ford', 'CAMIONETA', '2022', 'Blanco', '4', 'Si', 'ford_camioneta_2020.webp'),
-(3, 'Chevrolet', 'Onix Turbo', '2013', 'Blanco', '2', 'No', 'chevrolet.webp'),
-(7, 'Toyota', 'Avalon', '2018', 'Gris', '2', 'No', 'toyota_corolla.webp'),
-(8, 'Chevrolet', 'Joy HB', '2015', 'Rojo', '4', 'Si', ''),
-(10, 'Mercedes-Benz', 'CLA Coupé', '2022', 'Blanco', '4', 'Si', 'CLA_Coupe.jpg');
-
---
--- Índices para tablas volcadas
---
-
---
--- Indices de la tabla `carros`
---
-ALTER TABLE `carros`
-  ADD PRIMARY KEY (`id`);
-
---
--- AUTO_INCREMENT de las tablas volcadas
---
-
---
--- AUTO_INCREMENT de la tabla `carros`
---
-ALTER TABLE `carros`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
-COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
